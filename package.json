@@ -7,7 +7,7 @@
   "scripts": {
     "start:backend": "node index.js",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=./",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
