@@ -3,6 +3,8 @@ require("dotenv").config();
 exports.handler = async (event, context) => {
   const key = process.env.GOOGLE_MAPS_API_KEY;
 
+  console.log(key);
+
   if (!key) {
     return {
       statusCode: 300,
