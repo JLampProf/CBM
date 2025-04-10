@@ -1,10 +1,10 @@
 {
   "name": "cbm",
+  "homepage": "https://jclamprecht.github.io/CBM/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "homepage": "https://jclamprecht.github.io/CBM/",
     "start:backend": "node index.js",
     "dev": "vite",
     "build": "vite build",
