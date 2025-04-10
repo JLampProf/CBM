@@ -14,9 +14,7 @@ const GoogleMaps = () => {
 
   const getKey = async () => {
     try {
-      const response = await fetch(
-        "https://circuitboard.netlify.app/.netlify/functions/getKey"
-      );
+      const response = await fetch("/.netlify/functions/getKey");
 
       if (!response.ok) {
         throw new Error("Error fetching Key");
