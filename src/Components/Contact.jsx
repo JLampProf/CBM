@@ -9,8 +9,8 @@ const Contact = () => {
     <section className="contact">
       <h1>Location</h1>
       <div className="contact-container">
-        {/* <div className="map"></div> */}
-        <GoogleMaps />
+        <div className="map"></div>
+        {/* <GoogleMaps /> */}
         <div className="contact-container-address">
           <LuMapPin className="icons" />
           <div className="contact-container-address-pgroup">
