@@ -2,7 +2,7 @@
   "name": "cbm",
   "homepage": "https://jlampprof.github.io/CBM/",
   "private": true,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
     "start:backend": "node index.js",
