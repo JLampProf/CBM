@@ -5,16 +5,19 @@ const center = { lat: -25.8782, lng: 28.0724 };
 const mapId = "myMapId";
 
 const GoogleMaps = () => {
-  const [key, setKey] = useState("");
+  const key = ""; //Add your own api key here
+
+
+  //The below logic wont work if uncommented
+  /*const [key, setKey] = useState("");
 
   useEffect(() => {
     getKey();
-    // fetchLocationData();
   }, []);
 
   const getKey = async () => {
     try {
-      const response = await fetch("/.netlify/functions/getKey");
+      const response = await fetch();
 
       if (!response.ok) {
         throw new Error("Error fetching Key");
@@ -26,7 +29,7 @@ const GoogleMaps = () => {
     } catch (error) {
       console.log("FetchKeyError");
     }
-  };
+  };*/
 
   if (!key) return <div className="map">Loading...</div>;
 
