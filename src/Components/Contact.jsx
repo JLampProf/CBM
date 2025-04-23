@@ -4,6 +4,8 @@ import { FiPhone } from "react-icons/fi";
 import { MdOutlineEmail } from "react-icons/md";
 import { useEffect } from "react";
 
+//The Google Maps component, has my api key removed, the empty div is just a placeholder for layout purposes. For what the site looks like, with working map, please visit https://circuitboard.netlify.app
+
 const Contact = () => {
   return (
     <section className="contact">
